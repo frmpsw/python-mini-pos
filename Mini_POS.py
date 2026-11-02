@@ -84,7 +84,7 @@ while True:
      print(cart)
 
 
-if not cart:   #ทวน
+if not cart:   
    print("ไม่มีสินค้าในตะกร้า ยกเลิกการชำระเงิน")
    exit()
 
@@ -114,7 +114,7 @@ while True:
   
 change = money - totalprice
 
-for i in cart:                  #ทบทวน
+for i in cart:                  
     product = get_product(products, i["name"])
     sell(product, i["quantity"])
 
