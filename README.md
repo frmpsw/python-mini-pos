@@ -23,11 +23,11 @@ A simple command-line Point of Sale (POS) application developed in Python to pra
 ## How to Run
 
 1. Install Python 3.
-2. Download the `mini_pos.py` file.
+2. Download the `Mini_POS.py` file.
 3. Open a terminal in the project folder.
 4. Run:
 
-   `python mini_pos.py`
+   `python Mini_POS.py`
 
 5. Enter a product name and quantity. Type `exit` to finish selecting products and proceed to payment.
 
