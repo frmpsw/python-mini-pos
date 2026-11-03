@@ -48,7 +48,7 @@ while True:
     if namee == "exit":
         break
 
-    product = get_product(products, namee)
+    product = get_product(products, name)
 
     if product is None:
         print("ไม่พบสินค้านี้")
